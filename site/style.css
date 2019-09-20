@@ -1,0 +1,42 @@
+		a.button:link, a.button:visited {
+			text-decoration: none;
+			background-color: :green;
+			border:1px solid blue;
+			color:black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+			background-color: 
+		}
+		a.button:hover, a.button:active {
+			color:blue;
+			background-color: gray;
+
+		}
+		p.uwu {
+			color:blue;
+			font-size:20px;
+		}
+		ul {
+			color:green;
+		}
+		li > ul {
+			color:red;
+		}
+		#top {
+			color:purple;
+			text-align: center;
+			background-color: blue;
+			background-size: 20px;
+		}
+		button{
+			border:none;
+			color: red;
+			background-color: lightgreen;
+			text-decoration: none;
+		}
+		button:hover{
+			background-color: black;
+			color:blue;
+		}

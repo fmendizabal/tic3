@@ -3,14 +3,26 @@
 <head>
 	<meta charset="utf-8">
 	<title>Hello World!!!!!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+	</style>
 </head>
 <body>
 <h1 id="top">Hola Mundo</h1>
-<p id="myId">Párrafo 1</p>
-<p>Texto aquí <span  onclick="alert('hi')">CLICK</span> Texto aquí</p>
+<p id="myId" class="uwu">Párrafo 1</p>
+<p>Texto aquí <span  onclick="sayHola()">CLICK</span> Texto aquí</p>
+<div id="clickable"></div>
 <h1>PEPITO</h1>
-
-<h4><a href="#bottom" target="_blank">Ir al fondo</a></h4>
+<div style="float:right;">
+	<a href="prueba_link.html"><button type="button">Hola</button></a>
+	<button type="button">Hola2</button>
+	<button  type="button">Hola3</button>
+</div>
+<h4>
+	<a href="#bottom">
+		Ir al fondo
+	</a>
+</h4>
 <div>
 	Lista no ordenada:
 <ul>
@@ -27,7 +39,7 @@
 </ul>
 </div>
 <div>
-	<a href="prueba_link.html">Link Test</a>
+	<a class="button" href="prueba_link.html">Link Test</a>
 
 </div>
 
@@ -39,5 +51,6 @@
 <div id= "bottom"> Este es el fondo</div>
 <a href="#top">Ir para arriba</a>
 <footer>Mendi 2019 &copy; Copyright</footer>
+<script src="script.js" type="text/javascript"></script>
 </body>
 </html>
